@@ -101,13 +101,13 @@ nav {
 /* Centered worker image */
 .team-member-image {
     display: flex;
-    justify-content: center; /* Center the image horizontally */
-    align-items: center; /* Center the image vertically */
-    width: 200px; /* Fixed width for all images */
-    height: 200px; /* Fixed height for all images */
-    border-radius: 50%; /* Makes images circular */
-    overflow: hidden; /* Ensures the images fit inside the circle without overflow */
-    margin-bottom: 20px; /* Space between the image and description */
+    justify-content: center; 
+    align-items: center; 
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin-bottom: 20px; 
 }
 
     /* Ensure the images fit within their container without distortion */
