@@ -101,19 +101,19 @@
   .worker-img {
     max-width: 100%;
     height: auto;
-    max-width: 300px;
+    max-width: 600px;
     object-fit: cover;
   }
 
   @media (max-width: 768px) {
     .worker-img {
-      max-width: 250px;
+      max-width: 300px;
     }
   }
 
   @media (max-width: 480px) {
     .worker-img {
-      max-width: 200px;
+      max-width: 250px;
     }
   }
   
