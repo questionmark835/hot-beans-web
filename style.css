@@ -97,6 +97,14 @@
     gap: 20px;
     margin-top: 20px;
   }
+
+  .worker-image {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   /* Centered worker image */
   .team-member-image {
