@@ -105,6 +105,12 @@
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width: 768px) {
+    .worker-image {
+      max-width: 250px;
+    }
+  }
   
   /* Centered worker image */
   .team-member-image {
