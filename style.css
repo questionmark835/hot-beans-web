@@ -98,17 +98,22 @@
     margin-top: 20px;
   }
 
-  .worker-image {
+  .worker-img {
     max-width: 100%;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 300px;
+    object-fit: cover;
   }
 
   @media (max-width: 768px) {
-    .worker-image {
+    .worker-img {
       max-width: 250px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .worker-img {
+      max-width: 200px;
     }
   }
   
@@ -460,7 +465,7 @@
 
 form {
     width: 100%;
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f9f9f9;
