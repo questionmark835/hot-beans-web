@@ -89,34 +89,81 @@
   }
   
   /* Worker section */
-  .worker {
+  
+  .history-section, .what-we-do {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: space-between;
-    gap: 20px;
-    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 40px;
   }
 
-  .worker-img {
-    max-width: 100%;
-    height: auto;
-    max-width: 600px;
-    object-fit: cover;
-  }
-
-  @media (max-width: 768px) {
-    .worker-img {
-      max-width: 300px;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .worker-img {
-      max-width: 250px;
-    }
+  .history-image, .what-we-do-image {
+    flex: 1;
+    margin-right: 20px;
   }
   
+.history-description, .what-we-do-description {
+  flex: 2;
+  max-width: 50%;
+}
+
+.history-img, .what-we-do-img {
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* styling for history section */
+
+.history-section {
+  margin-bottom: 50px;
+}
+
+.history-description {
+  padding: 20px;
+}
+
+.history-description h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+/* styling for what we do section */
+.what-we-do {
+  flex-direction: row-reverse;
+}
+
+.what-we-do-description {
+  padding: 20px;
+}
+
+.what-we-do-description h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .history-section, .what-we-do {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .history-image, .what-we-do-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .history-description, .what-we-do-description {
+    max-width: 100%;
+  }
+
+  .history-img, .what-we-do-img {
+    max-width: 100%;
+  }
+}
+
   /* Centered worker image */
   .team-member-image {
     display: flex;
@@ -133,27 +180,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  
-  /* Worker description */
-  .worker-description {
-    text-align: center;
-  }
-  
-  .worker-description h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .worker-description p {
-    font-size: 16px;
-    line-height: 1.8;
-    color: #555;
-    max-width: 600px;
-    margin: 0 auto 20px;
-    text-align: justify;
-    text-justify: inter-word;
-    padding: 0 15px;
   }
   
   /* Job Listings Section */
