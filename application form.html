@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form | Hot Beans Web</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="formValidation.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header-container">
+        <header>
+            <div class="logo-container">
+                <img src="https://media.istockphoto.com/id/1144792637/vector/heart-of-coffee-beans-vector-illustration-in-flat-style.jpg?s=612x612&w=0&k=20&c=x9JEBkrefMGaCt4kguao2w_6MMbmlthhzosdU62plJU=" alt="Hot Beans Logo" class="logo">
+                <h1>Hot Beans Web</h1>
+            </div>
+            <!-- Navigation Menu -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="meet the team.html">Meet The Team</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="job board.html">Job Board</a></li>
+                    <li><a href="application form.html">Application Form</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="main-container">
+        <main class="application-form">
+            <center><h2>Job Application Form</h2></center>
+
+            <form id="applicationForm">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                </div>
+
+                <div class="form-group">
+                    <label for="position">Position Applied For</label>
+                    <input type="text" id="position" name="position" required placeholder="Enter the position you are applying for">
+                </div>
+
+                <div class="form-group">
+                    <label for="coverLetter">Cover Letter</label>
+                    <textarea id="coverLetter" name="coverLetter" rows="5" required placeholder="Write a brief cover letter..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="cv">Upload CV</label>
+                    <input type="file" id="cv" name="cv" required>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Submit Application</button>
+                </div>
+            </form>
+
+            <div id="formResponse"></div>
+        </main>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer-container">
+        <footer>
+            <div class="footer-left">
+                <p>&copy; 2024 Hot Beans Web. All rights reserved.</p>
+                <p>Visit us at: 10 malwood road, London, United Kingdom SW12 8EN</p>
+            </div>
+            <div class="footer-center">
+                <ul>
+                    <li><a href="privacy policy.html">Privacy Policy</a></li>
+                    <li><a href="terms of conditions.html">Terms of Service</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <p>Contact us at: <a href="mailto:zambrann8146@student.sfx.ac.uk">zambrann8146@student.sfx.ac.uk</a></p>
+                <p>Phone: (+44) 7562 678172</p>
+                <div class="social-media">
+                    <img src="https://i.pinimg.com/474x/1c/52/8e/1c528e2785837c261958427640c9e846.jpg" alt="Facebook">
+                    <img src="https://png.pngtree.com/element_our/sm/20180626/sm_5b32227ca3eb9.jpg" alt="Twitter">
+                    <img src="https://img.freepik.com/premium-vector/instagram-vector-logo-icon-social-media-logotype_901408-392.jpg?semt-ais_hybrid" height="30" width="30" alt="Instagram">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
