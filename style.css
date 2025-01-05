@@ -89,6 +89,7 @@ nav a:hover {
 }
 
 /* Worker section */
+
 .history-section, .what-we-do {
   display: flex;
   justify-content: space-between;
@@ -102,64 +103,65 @@ nav a:hover {
 }
 
 .history-description, .what-we-do-description {
-  flex: 2;
-  max-width: 50%;
+flex: 2;
+max-width: 50%;
 }
 
 .history-img, .what-we-do-img {
-  width: 100%;
-  height: auto;
-  max-width: 350px;
-  border-radius: 8px;
-  object-fit: cover;
+width: 100%;
+height: auto;
+max-width: 350px;
+border-radius: 8px;
+object-fit: cover;
 }
 
 /* styling for history section */
+
 .history-section {
-  margin-bottom: 50px;
+margin-bottom: 50px;
 }
 
 .history-description {
-  padding: 20px;
+padding: 20px;
 }
 
 .history-description h3 {
-  font-size: 1.8em;
-  margin-bottom: 15px;
+font-size: 1.8em;
+margin-bottom: 15px;
 }
 
 /* styling for what we do section */
 .what-we-do {
-  flex-direction: row-reverse;
+flex-direction: row-reverse;
 }
 
 .what-we-do-description {
-  padding: 20px;
+padding: 20px;
 }
 
 .what-we-do-description h3 {
-  font-size: 1.8em;
-  margin-bottom: 15px;
+font-size: 1.8em;
+margin-bottom: 15px;
 }
 
 @media (max-width: 768px) {
-  .history-section, .what-we-do {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+.history-section, .what-we-do {
+  flex-direction: column;
+  align-items: flex-start;
+}
 
-  .history-image, .what-we-do-image {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
+.history-image, .what-we-do-image {
+  margin-right: 0;
+  margin-bottom: 20px;
+}
 
-  .history-description, .what-we-do-description {
-    max-width: 100%;
-  }
+.history-description, .what-we-do-description {
+  max-width: 100%;
+}
 
-  .history-img, .what-we-do-img {
-    max-width: 100%;
-  }
+.history-img, .what-we-do-img {
+  max-width: 100%;
+}
 }
 
 /* Centered worker image */
@@ -485,6 +487,72 @@ footer p {
   .review {
     padding: 12px;
   }
+}
+
+form {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-box {
+padding: 20px;
+background-color: #ffffff;
+margin-bottom: 30px;
+border-radius: 8px;
+text-align: center;
+box-shadow: 0 4px 8px rgba(90, 0, 0, 0.1);
+width: 100%;
+max-width: 900px;
+margin-left: auto;
+margin-right: auto; 
+}
+
+.intro-box p {
+font-size: 16px;
+line-height: 1.6;
+color: #333;
+margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea, input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#formResponse {
+  margin-top: 20px;
+  font-size: 16px;
 }
 
 /* Resources Page Styles */
